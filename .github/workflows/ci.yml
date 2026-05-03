@@ -7,9 +7,9 @@ name: CI - Tests
 # Ce workflow se lance automatiquement dans deux cas :
 on:
   push:
-    branches: [main] # À chaque push sur main
+    branches: [master] # À chaque push sur main
   pull_request:
-    branches: [main] # À chaque PR ciblant main
+    branches: [master] # À chaque PR ciblant main
 
 # ============================================
 # JOBS

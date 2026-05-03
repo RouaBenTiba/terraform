@@ -6,14 +6,14 @@
 variable "aws_region" {
   description = "Région AWS"
   type        = string
-  default     = "us-east-1"   # N. Virginia — recommandé pour AWS Academy
+  default     = "us-east-1" # N. Virginia — recommandé pour AWS Academy
 }
 
 # Quelle taille de serveur ?
 variable "instance_type" {
   description = "Taille du serveur EC2"
   type        = string
-  default     = "t2.micro"    # Le plus petit (gratuit avec Free Tier)
+  default     = "t2.micro" # Le plus petit (gratuit avec Free Tier)
 }
 
 # Quel nom donner au serveur ?
@@ -55,6 +55,6 @@ variable "app_port" {
 variable "my_ip" {
   description = "Votre IP publique (format : x.x.x.x/32)"
   type        = string
-  default = "41.229.70.2/32"
+  default     = "196.179.81.94/32"
 
 }
